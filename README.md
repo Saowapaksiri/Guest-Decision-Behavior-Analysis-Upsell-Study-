@@ -3,7 +3,7 @@ Analytics Portfolio
 
 -------------------------------------------------------------
 
-# Project Summary
+# Project Summary 
 
 This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers and why some return.
 It blends my experience as a server with analytical work using Power BI and Python to reveal patterns that are often felt during service but rarely measured.
