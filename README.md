@@ -1,143 +1,113 @@
 # Guest-Decision-Behavior-Analysis-Upsell-Study-
 Analytics Portfolio
 
-# Chiang Mai Thai Dining – Upsell & Return Intent Analysis
-1. Introduction
+-------------------------------------------------------------
 
-This project examines how different types of guests respond to upsell offers at a Thai restaurant, and how this behavior connects to their intention to return.
-It brings together two perspectives:
+# Project Summary
 
-My experience working directly with guests as a server
+This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers and why some return.
+It blends my experience as a server with analytical work using Power BI and Python to reveal patterns that are often felt during service but rarely measured.
 
-My training in analytics, using Power BI, DAX, and Python
+How the Story Begins
 
-By combining these viewpoints, the analysis creates a clear story of why guests behave the way they do — and how the restaurant can use these insights to improve revenue and guest satisfaction.
+Working on the dining floor, I often noticed small moments that changed how guests behaved.
+A friendly upsell.
+A recommendation.
+A quick conversation.
 
+These interactions seemed to affect whether they enjoyed the experience — and whether they might come back.
 
-2. What This Data Represents
+-------------------------------------------------------------
 
-The dataset includes:
+# What the Data Revealed
+1. Upsells weren’t just “extra sales” — they changed how guests felt.
 
-Guest types (Solo, Couple, Group)
+Guests who accepted an upsell were the most likely to say they would return.
+Those who declined were far more uncertain.
 
-Time blocks (5–6 PM, 6–7 PM, Other)
+This confirmed a feeling I had as a server:
+When a guest says “yes” to your recommendation, they’re not just buying an item —
+they’re connecting with you. That connection becomes part of their experience.
 
-Whether a beer upsell was offered
 
-Whether the guest accepted
+2. Early evening (5–7 PM) is when guests are most open to suggestions.
 
-Whether the guest expressed Return Intent (“Yes”, “Maybe”, “No”)
+I always felt guests were friendlier and more relaxed in this window.
+The data proved it:
 
-These variables allow us to understand who accepts upsells, when they accept, and how it affects their likelihood of returning.
+Highest upsell acceptance at 5–6 PM
 
+Strong performance at 6–7 PM
 
-3. Key Patterns Observed
-3.1 Upselling and Return Intent Move Together
+Much lower acceptance during other hours
 
-While serving, I often noticed that small positive interactions — such as offering a drink or making a recommendation — made guests more engaged and satisfied.
+This is the ideal time for staff to share recommendations with confidence.
 
-The data supported this:
 
-Guests who accepted an upsell showed the highest rate of “Yes” for Return Intent.
+3. Groups respond the best — and return the most.
 
-Guests who rejected offers were more likely to say “Maybe” or “No.”
+Groups tend to laugh together, discuss dishes, and follow along when someone agrees to an upsell.
+The numbers reflected this energy:
 
-This suggests that upselling is not only a sales technique but also a relationship-building moment.
+Highest upsell rate
 
-3.2 5–7 PM Is the Most Responsive Window
+Strongest return intent
 
-From experience, this is when guests are relaxed, attentive, and open to suggestions.
-The analysis confirmed this:
+Groups are the most influential segment for increasing sales and loyalty.
 
-5–6 PM showed the strongest upsell rate
 
-6–7 PM closely followed
+4. Couples are more selective — and need a different approach.
 
-“Other” times were significantly lower
+Couples often prefer a smooth, quiet experience.
+They rarely respond to generic upsells.
 
-Early evening provides the best opportunity for staff to offer additional items confidently.
+-------------------------------------------------------------
 
-3.3 Group Diners Respond the Most
+# The data matched what I observed:
 
-In real service situations, groups tend to be enthusiastic and collaborative.
-They discuss menu items aloud, share tasting ideas, and often go along with a recommendation if one person agrees.
+Lowest upsell acceptance
 
-The data clearly showed:
+Moderate return intent
 
-Groups had the highest upsell success rate
+They engage better with subtle, experience-based recommendations
+(wine pairings, desserts, signature drinks).
 
-Groups also showed the highest return intent
+What This Means for the Restaurant
 
-Group guests present a high-value opportunity for revenue and loyalty.
+The story the data tells is clear:
 
-3.4 Couples Are More Selective
+Not every guest wants the same type of upsell.
 
-Couples usually prefer a quieter, more personalized dining experience.
-They are less receptive to frequent suggestions.
+Timing matters as much as the offer.
 
-The analysis confirmed this:
+Positive interaction improves both sales and loyalty.
 
-Couples had the lowest upsell acceptance
+Staff communication directly shapes guest experience.
 
-Their return intent was steady but not as strong as groups
+This project turns everyday service moments into structured insights that can guide training, staffing, and menu strategy.
 
-This indicates couples need a different approach — something subtle and experience-focused.
+-------------------------------------------------------------
 
+# Tools Used
 
-4. What These Insights Mean for the Restaurant
+Power BI (DAX measures, visual dashboard)
 
-Pulling the patterns together, here is the story the data tells:
+Python (Pandas, Matplotlib)
 
-Upselling creates stronger guest relationships.
-The interaction itself often leads to a better experience.
+Data modeling and segmentation
 
-Timing matters.
-Staff should focus upsell efforts during early evening hours when guest openness is highest.
+--------------------------------------------------------------
 
-Different guests require different strategies.
+# Files Included
 
-Groups → shared items, samplers, pitchers
+ChiangMai_ThaiDining.pbix — Power BI dashboard
 
-Couples → pairings, signature cocktails, dessert enhancements
+Chiangmai_Upsell_Analysis.ipynb — Jupyter Notebook
 
-Solos → personalized recommendations
+dashboard_overview.png — main dashboard screenshot
 
-Return intent improves when guests feel engaged.
-Staff training can reinforce confidence and communication techniques.
+Final Insight
 
-
-5. Tools Used
-
-Power BI (dashboard design, DAX measures)
-
-Python (Pandas, Matplotlib) for exploratory analysis
-
-Data cleaning and modeling
-
-Segmentation analysis
-
-Operational insight integration
-
-
-6. Files Included
-
-ChiangMai_ThaiDining.pbix — full Power BI dashboard
-
-Chiangmai_Upsell_Analysis.ipynb — Jupyter Notebook analysis
-
-images/dashboard_overview.png — dashboard preview
-
-
-7. Conclusion
-
-This project demonstrates how analytics can bring clarity to everyday restaurant operations.
-By connecting frontline experience with data, the story becomes clear:
-
-When upsells work, guests feel more cared for.
-
-When the timing is right, upsells are natural.
-
-When recommendations match the guest type, satisfaction rises.
-
-This study shows the value of combining service experience with analytical skills — turning daily observations into insights that support business decisions, staff development, and guest retention.
-
+Data confirmed what service experience hinted:
+Guests don’t just respond to what you offer — they respond to how and when you offer it.
+Understanding this blend of behavior and timing creates opportunities to improve both revenue and hospitality.
