@@ -25,35 +25,35 @@ These interactions seemed to affect whether they enjoyed the experience — and 
 Guests who accepted an upsell were the most likely to say they would return.
 Those who declined were far more uncertain.
 
-This confirmed a feeling I had as a server:
+
+# This confirmed a feeling I had as a server:
 When a guest says “yes” to your recommendation, they’re not just buying an item —
 they’re connecting with you. That connection becomes part of their experience.
 
 
 2. Early evening (5–7 PM) is when guests are most open to suggestions.
 
-I always felt guests were friendlier and more relaxed in this window.
+- I always felt guests were friendlier and more relaxed in this window.
 The data proved it:
 
-Highest upsell acceptance at 5–6 PM
+- Highest upsell acceptance at 5–6 PM
 
-Strong performance at 6–7 PM
+- Strong performance at 6–7 PM
 
-Much lower acceptance during other hours
+- Much lower acceptance during other hours
 
-This is the ideal time for staff to share recommendations with confidence.
+- This is the ideal time for staff to share recommendations with confidence.
 
 
 3. Groups respond the best — and return the most.
 
 Groups tend to laugh together, discuss dishes, and follow along when someone agrees to an upsell.
-The numbers reflected this energy:
 
-Highest upsell rate
+- Highest upsell rate
 
-Strongest return intent
+- Strongest return intent
 
-Groups are the most influential segment for increasing sales and loyalty.
+- Groups are the most influential segment for increasing sales and loyalty.
 
 
 4. Couples are more selective — and need a different approach.
@@ -65,36 +65,54 @@ They rarely respond to generic upsells.
 
 # The data matched what I observed:
 
-Lowest upsell acceptance
+- Lowest upsell acceptance
 
-Moderate return intent
+- Moderate return intent
 
-They engage better with subtle, experience-based recommendations
+- They engage better with subtle, experience-based recommendations
 (wine pairings, desserts, signature drinks).
 
-What This Means for the Restaurant
 
-The story the data tells is clear:
+# The story the data tells is clear:
 
-Not every guest wants the same type of upsell.
+- Not every guest wants the same type of upsell.
 
-Timing matters as much as the offer.
+- Timing matters as much as the offer.
 
-Positive interaction improves both sales and loyalty.
+- Positive interaction improves both sales and loyalty.
 
-Staff communication directly shapes guest experience.
+- Staff communication directly shapes guest experience.
 
-This project turns everyday service moments into structured insights that can guide training, staffing, and menu strategy.
+
+  This project turns everyday service moments into structured insights that can guide training, staffing, and menu strategy.
 
 -------------------------------------------------------------
 
 # Tools Used
 
-Power BI (DAX measures, visual dashboard)
+# Microsoft Excel
 
-Python (Pandas, Matplotlib)
+Initial data review and validation
 
-Data modeling and segmentation
+Data cleaning and preparation
+
+Exporting structured tables for analysis
+
+# Power BI
+
+Data modeling
+
+DAX measures for KPI calculations
+
+Interactive dashboard and visual analysis
+
+# Python (Jupyter Notebook)
+
+Exploratory data analysis (EDA)
+
+Data transformation using Pandas
+
+Supporting visualizations using Matplotlib
 
 --------------------------------------------------------------
 
@@ -106,7 +124,7 @@ Chiangmai_Upsell_Analysis.ipynb — Jupyter Notebook
 
 dashboard_overview.png — main dashboard screenshot
 
-Final Insight
+# Final Insight
 
 Data confirmed what service experience hinted:
 Guests don’t just respond to what you offer — they respond to how and when you offer it.
