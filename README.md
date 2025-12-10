@@ -3,116 +3,151 @@ Analytics Portfolio
 
 -------------------------------------------------------------
 
-# Project Summary 
+Project Summary 
 
-This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers and why some return.
-It blends my experience as a server with analytical work using Power BI and Python to reveal patterns that are often felt during service but rarely measured.
+This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers — especially our signature Chiang Mai Beer — and how these choices connect to their intention to return. It blends my experience working directly with guests on the dining floor with analytical work in Excel, Power BI, and Python.
 
-How the Story Begins
+# The goal is simple
+Turn everyday service moments into measurable insights that help build revenue, brand memory, and guest loyalty.
 
-Working on the dining floor, I often noticed small moments that changed how guests behaved.
-A friendly upsell.
-A recommendation.
-A quick conversation.
+# How the Story Begins
 
-These interactions seemed to affect whether they enjoyed the experience — and whether they might come back.
+While serving tables, I often noticed how a single interaction could change the entire dining experience. A warm greeting. A recommendation. A shared laugh. A well-timed upsell.
 
--------------------------------------------------------------
+Some guests said yes immediately.
+Some hesitated.
+Some returned weeks later asking for “that Chiang Mai beer you recommended last time.”
+
+These moments felt meaningful — but I wanted to understand why they happened
+and how they shaped guest behavior.
+
+--------------------------------------------------------------
 
 # What the Data Revealed
-1. Upsells weren’t just “extra sales” — they changed how guests felt.
+Chiang Mai Beer Upsells Build Brand Memory
 
-Guests who accepted an upsell were the most likely to say they would return.
-Those who declined were far more uncertain.
+Upsells were not just “extra sales.”
+The guests who accepted Chiang Mai Beer were also the most likely to say they would return.
 
+This matches what I saw during service:
+When a guest says “yes” to your signature recommendation, they aren’t just buying a drink —
+they’re connecting with the brand and with you as their server.
 
-# This confirmed a feeling I had as a server:
-When a guest says “yes” to your recommendation, they’re not just buying an item —
-they’re connecting with you. That connection becomes part of their experience.
+A unique item like Chiang Mai Beer becomes part of their memory of the restaurant,
+and that memory increases loyalty.
 
+--------------------------------------------------------------
 
-2. Early evening (5–7 PM) is when guests are most open to suggestions.
+# Early Evening (5–7 PM) Is the Golden Window
 
-- I always felt guests were friendlier and more relaxed in this window.
-The data proved it:
+Guests during 5–7 PM were the most relaxed, open, and social — something I noticed long before analyzing the data.
 
-- Highest upsell acceptance at 5–6 PM
+The numbers confirmed it:
 
-- Strong performance at 6–7 PM
+Highest Chiang Mai Beer acceptance at 5–6 PM
 
-- Much lower acceptance during other hours
+Strong performance at 6–7 PM
 
-- This is the ideal time for staff to share recommendations with confidence.
+Much lower acceptance outside this window
 
+This is the best time for staff to share recommendations confidently and naturally.
 
-3. Groups respond the best — and return the most.
+--------------------------------------------------------------
 
-Groups tend to laugh together, discuss dishes, and follow along when someone agrees to an upsell.
+# Groups Respond the Best — and Return the Most
 
-- Highest upsell rate
+Groups have the highest
 
-- Strongest return intent
+- Upsell acceptance
 
-- Groups are the most influential segment for increasing sales and loyalty.
+- Chiang Mai Beer interest
 
+- Return intent
 
-4. Couples are more selective — and need a different approach.
+- They influence each other and create shared excitement around trying something new.
 
-Couples often prefer a smooth, quiet experience.
-They rarely respond to generic upsells.
+- Groups are a key segment for increasing both sales and brand loyalty.
 
--------------------------------------------------------------
+--------------------------------------------------------------
 
-# The data matched what I observed:
+# Couples Are More Selective — and Require a Softer Approach
 
-- Lowest upsell acceptance
+Couples tend to prefer a smoother, more private dining experience.
+They respond less to generic upsells but are more open to:
+
+- Culturally meaningful recommendations
+
+- Staff storytelling (“This beer comes from Chiang Mai…”)
+
+- Items that elevate the dining experience
+
+# This aligns with the data showing:
+
+- Lowest upsell rate
 
 - Moderate return intent
 
-- They engage better with subtle, experience-based recommendations
-(wine pairings, desserts, signature drinks).
+- They require a gentle, personalized pitch, not a direct upsell.
+
+--------------------------------------------------------------
+
+# The Story the Data Tells
+- Not every guest responds to upsells the same way
+
+# Guest type influences both acceptance and return behavior.
+
+- Timing is just as important as the offer
+  
+
+# The difference between 5 PM and 9 PM is a completely different customer mindset.
+
+- Signature items (like Chiang Mai Beer) strengthen brand memory
+  
+
+# A unique upsell creates emotional recall — and loyalty.
+
+- Staff communication directly shapes revenue and repeat visits
+  A simple recommendation, when delivered with intention, becomes a measurable business impact.
 
 
-# The story the data tells is clear:
+--------------------------------------------------------------
 
-- Not every guest wants the same type of upsell.
+# This project transforms intuitive service knowledge into structured insights that can guide:
 
-- Timing matters as much as the offer.
+- Staff training
 
-- Positive interaction improves both sales and loyalty.
+- Menu design
 
-- Staff communication directly shapes guest experience.
+- Upsell strategy
 
+- Brand positioning
 
-  This project turns everyday service moments into structured insights that can guide training, staffing, and menu strategy.
-
--------------------------------------------------------------
+--------------------------------------------------------------
 
 # Tools Used
+Microsoft Excel
 
-# Microsoft Excel
+Initial data review & validation
 
-Initial data review and validation
+Cleaning and structuring data
 
-Data cleaning and preparation
-
-Exporting structured tables for analysis
+Exporting tables for Power BI
 
 # Power BI
 
 Data modeling
 
-DAX measures for KPI calculations
+DAX measures for KPIs
 
-Interactive dashboard and visual analysis
+Interactive visuals for upsell and return intent analysis
 
 # Python (Jupyter Notebook)
 
-Exploratory data analysis (EDA)
+Exploratory data analysis
 
 Data transformation
 
-Supporting visualizations using Matplotlib
+Supporting charts using Matplotlib
 
 --------------------------------------------------------------
 
@@ -124,8 +159,11 @@ Chiangmai_Upsell_Analysis.ipynb — Jupyter Notebook
 
 dashboard_overview.png — main dashboard screenshot
 
+--------------------------------------------------------------
+
 # Final Insight
 
 Data confirmed what service experience hinted:
-Guests don’t just respond to what you offer — they respond to how and when you offer it.
-Understanding this blend of behavior and timing creates opportunities to improve both revenue and hospitality.
+Guests don’t respond only to what you offer — they respond to how, when, and why you offer it.
+
+A thoughtful recommendation like Chiang Mai Beer creates a moment of connection that improves the guest experience, increases revenue, and strengthens the restaurant’s brand identity.
