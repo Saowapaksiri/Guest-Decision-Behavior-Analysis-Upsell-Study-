@@ -73,19 +73,16 @@ Upselling, when done with intention, improved the guest experience rather than i
 # Visualizations and Insights
 
 ## Upsell Rate by Guest Type  
-![Upsell by Guest Type](./images/upsell_by_guest_type.png)  
 Groups and solo diners were the most responsive to the Chiang Mai Beer recommendation, while couples required a softer, personalized approach.
 
 ---
 
-## Return Intent by Upsell Acceptance  
-![Return Intent](./images/return_intent_chart.png)  
+## Return Intent by Upsell Acceptance    
 Guests who accepted Chiang Mai Beer demonstrated a stronger intention to return compared to those who declined, showing a clear link between signature items and loyalty.
 
 ---
 
 ## Upsell Rate by Time Block  
-![Time Block Upsell Rate](./images/time_block_upsell.png)  
 The early evening window (5–7 PM) yielded the highest upsell performance, making it the ideal moment for staff engagement and recommendations.
 
 ---
