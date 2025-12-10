@@ -3,167 +3,162 @@ Analytics Portfolio
 
 -------------------------------------------------------------
 
-Project Summary 
+# Chiang Mai Thai Dining – Guest Behavior & Upsell Analysis  
+Understanding how Chiang Mai Beer influences guest experience, brand memory, and return intent
 
-This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers — especially our signature Chiang Mai Beer — and how these choices connect to their intention to return. It blends my experience working directly with guests on the dining floor with analytical work in Excel, Power BI, and Python.
+## Download the Interactive Dashboard  
+Explore the full interactive report here:  
+[Download ChiangMai_ThaiDining.pbix](ChiangMai_ThaiDining.pbix)
 
-# The goal is simple
-Turn everyday service moments into measurable insights that help build revenue, brand memory, and guest loyalty.
+---
 
-# How the Story Begins
+## Project Summary  
 
-While serving tables, I often noticed how a single interaction could change the entire dining experience. A warm greeting. A recommendation. A shared laugh. A well-timed upsell.
+This project analyzes real guest interactions at a Thai restaurant to understand why some guests accept upsell offers — especially our signature Chiang Mai Beer — and how these choices influence their intention to return.
 
-Some guests said yes immediately.
-Some hesitated.
-Some returned weeks later asking for “that Chiang Mai beer you recommended last time.”
+It blends my hands-on experience as a server with analytical work in Excel, Power BI, and Python to reveal patterns that are often felt during service but rarely measured.
 
-These moments felt meaningful — but I wanted to understand why they happened
-and how they shaped guest behavior.
+The goal is simple:  
+Transform everyday service moments into measurable insights that guide branding, sales strategy, staffing, and guest experience.
 
---------------------------------------------------------------
+---
 
-# What the Data Revealed
-Chiang Mai Beer Upsells Build Brand Memory
+## How the Story Begins  
 
-Upsells were not just “extra sales.”
-The guests who accepted Chiang Mai Beer were also the most likely to say they would return.
+While working on the dining floor, I noticed that a single interaction could transform the guest experience:
 
-This matches what I saw during service:
-When a guest says “yes” to your signature recommendation, they aren’t just buying a drink —
-they’re connecting with the brand and with you as their server.
+- A warm recommendation  
+- A cultural story  
+- A shared moment  
+- A signature item like Chiang Mai Beer
 
-A unique item like Chiang Mai Beer becomes part of their memory of the restaurant,
-and that memory increases loyalty.
+Some guests said yes immediately.  
+Some hesitated.  
+Some returned weeks later asking,  
+"Do you still have that Chiang Mai Beer you recommended last time?"
 
---------------------------------------------------------------
+I wanted to understand the pattern behind these behaviors.  
+Analytics provided the answers.
 
-# Early Evening (5–7 PM) Is the Golden Window
+---
 
-Guests during 5–7 PM were the most relaxed, open, and social — something I noticed long before analyzing the data.
+# Key Insights  
 
-The numbers confirmed it:
+### 1. Chiang Mai Beer Upsell Success Rate – 61.29%  
+More than half of all guests accepted the signature beer recommendation.  
+This is unusually strong for a specialty beverage upsell and shows high openness to brand-forward suggestions.
 
-Highest Chiang Mai Beer acceptance at 5–6 PM
+---
 
-Strong performance at 6–7 PM
+### 2. Upsell Acceptance Strongly Predicts Return Intent  
+Guests who accepted Chiang Mai Beer were far more likely to say Yes to returning.  
+Accepting the beer is not just a purchase — it creates brand memory and strengthens loyalty.
 
-Much lower acceptance outside this window
+---
 
-This is the best time for staff to share recommendations confidently and naturally.
+### 3. Groups and Solo Diners Are the Most Persuadable Segments  
+- Groups (78%): Influence each other, enjoy sharing new experiences  
+- Solo diners (77%): Curious and open to conversation  
+- Couples (48%): Prefer subtle, experience-based recommendations
 
---------------------------------------------------------------
+Different guest types require different upsell strategies.
 
-# Groups Respond the Best — and Return the Most
+---
 
-Groups have the highest
+### 4. Early Evening (5–7 PM) Is the Golden Window  
+- 5–6 PM: 72.7% acceptance  
+- 6–7 PM: 55.7% acceptance  
 
-- Upsell acceptance
+Guests are relaxed and open during these hours, making them ideal for storytelling and introducing the signature beer.
 
-- Chiang Mai Beer interest
+---
 
-- Return intent
+### 5. Upsells Improve Hospitality, Not Just Sales  
+A “yes” creates connection, builds trust, and becomes part of the guest’s emotional memory of the restaurant.
 
-- They influence each other and create shared excitement around trying something new.
+---
 
-- Groups are a key segment for increasing both sales and brand loyalty.
+# Visualizations and Insights
 
---------------------------------------------------------------
+## Upsell Rate by Guest Type
+![Upsell by Guest Type](images/upsell_by_guest_type.png)
 
-# Couples Are More Selective — and Require a Softer Approach
+**Insight:**  
+Groups and solo diners are the most responsive to Chiang Mai Beer. Couples are more selective and require a gentler approach tied to experience and storytelling.
 
-Couples tend to prefer a smoother, more private dining experience.
-They respond less to generic upsells but are more open to:
+---
 
-- Culturally meaningful recommendations
+## Return Intent by Upsell Acceptance
+![Return Intent](images/return_intent_chart.png)
 
-- Staff storytelling (“This beer comes from Chiang Mai…”)
+**Insight:**  
+Accepting Chiang Mai Beer strongly correlates with higher return intent, showing that signature items help build long-term guest loyalty.
 
-- Items that elevate the dining experience
+---
 
-# This aligns with the data showing:
+## Upsell Rate by Time Block
+![Time Block Upsell Rate](images/time_block_upsell.png)
 
-- Lowest upsell rate
+**Insight:**  
+The 5–7 PM window is the ideal time for staff to offer Chiang Mai Beer, as guests are more receptive and engaged.
 
-- Moderate return intent
+---
 
-- They require a gentle, personalized pitch, not a direct upsell.
+# Interactive Dashboard (Power BI)
 
---------------------------------------------------------------
+This project includes a full Power BI dashboard that visualizes:
 
-# The Story the Data Tells
-- Not every guest responds to upsells the same way
+- Chiang Mai Beer upsell performance  
+- Guest type behavior (Groups, Solo, Couples)  
+- Return intent patterns  
+- Time-block acceptance rates  
+- Behavioral insights behind upsell success  
 
-# Guest type influences both acceptance and return behavior.
+You can explore the full interactive dashboard here:  
+[Download ChiangMai_ThaiDining.pbix](ChiangMai_ThaiDining.pbix)
 
-- Timing is just as important as the offer
-  
+---
 
-# The difference between 5 PM and 9 PM is a completely different customer mindset.
+# Tools Used  
 
-- Signature items (like Chiang Mai Beer) strengthen brand memory
-  
+### Microsoft Excel
+- Initial data review and validation  
+- Cleaning and structuring the dataset  
 
-# A unique upsell creates emotional recall — and loyalty.
+### Power BI
+- Data modeling  
+- DAX measures for KPIs  
+- Interactive dashboard design  
 
-- Staff communication directly shapes revenue and repeat visits
-  A simple recommendation, when delivered with intention, becomes a measurable business impact.
+### Python (Jupyter Notebook)
+- Exploratory data analysis (EDA)  
+- Data transformation  
+- Supporting visualizations (Matplotlib)
 
+---
 
---------------------------------------------------------------
+# Files Included  
 
-# This project transforms intuitive service knowledge into structured insights that can guide:
+- ChiangMai_ThaiDining.pbix — Full interactive Power BI dashboard  
+- Chiangmai_Upsell_Analysis.ipynb — Python notebook (EDA)  
+- dashboard_overview.png — Main dashboard screenshot  
+- /images/ — All chart visuals for README  
 
-- Staff training
+---
 
-- Menu design
+# Final Insight  
 
-- Upsell strategy
-
-- Brand positioning
-
---------------------------------------------------------------
-
-# Tools Used
-Microsoft Excel
-
-Initial data review & validation
-
-Cleaning and structuring data
-
-Exporting tables for Power BI
-
-# Power BI
-
-Data modeling
-
-DAX measures for KPIs
-
-Interactive visuals for upsell and return intent analysis
-
-# Python (Jupyter Notebook)
-
-Exploratory data analysis
-
-Data transformation
-
-Supporting charts using Matplotlib
-
---------------------------------------------------------------
-
-# Files Included
-
-ChiangMai_ThaiDining.pbix — Power BI dashboard
-
-Chiangmai_Upsell_Analysis.ipynb — Jupyter Notebook
-
-dashboard_overview.png — main dashboard screenshot
-
---------------------------------------------------------------
-
-# Final Insight
-
-Data confirmed what service experience hinted:
+Data confirmed what experience always suggested:  
 Guests don’t respond only to what you offer — they respond to how, when, and why you offer it.
 
-A thoughtful recommendation like Chiang Mai Beer creates a moment of connection that improves the guest experience, increases revenue, and strengthens the restaurant’s brand identity.
+A meaningful recommendation like Chiang Mai Beer:
+
+- Enhances the experience  
+- Creates brand memory  
+- Drives repeat visits  
+- Strengthens the connection between guest and restaurant  
+
+This project bridges service intuition with analytical evidence, turning insights into operational strategy and business value.
+
+---
+
