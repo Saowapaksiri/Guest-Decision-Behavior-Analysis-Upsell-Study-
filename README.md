@@ -110,7 +110,7 @@ Interactive dashboard and visual analysis
 
 Exploratory data analysis (EDA)
 
-Data transformation using Pandas
+Data transformation
 
 Supporting visualizations using Matplotlib
 
